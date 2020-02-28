@@ -4,12 +4,12 @@
       "710e3b25-8a97-4b92-8946-de89a2ae5151": {
         "id": "710e3b25-8a97-4b92-8946-de89a2ae5151",
         "parent": null,
-        "name": "lambda.js",
+        "name": "lamfresdwbda.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "lambda.js",
+        "filePath": "lamfresdwbda.js",
         "cursor": {
           "lineNumber": 2,
           "column": 5
@@ -26,7 +26,16 @@
             "resourceName": "apigusWest1indunilCaliiteststgingindany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "6782cfd7-7573-49a0-9be3-cff276f3cf9e": {
+            "id": "6782cfd7-7573-49a0-9be3-cff276f3cf9e",
+            "name": "Test event",
+            "functionId": "710e3b25-8a97-4b92-8946-de89a2ae5151",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -80,7 +89,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582868956959
+    "lastSave": 1582869194344
   },
   "VCS_STATE": {
     "provider": "GitHub",
